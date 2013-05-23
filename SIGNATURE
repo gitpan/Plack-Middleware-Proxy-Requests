@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.70.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -15,17 +15,18 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 f5790364dacec84f9b8bf85c8419ec93146e971a Build.PL
-SHA1 91848ee39a1cd18e8511ae077c5a2c187481d7cb Changes
-SHA1 39d4369e877ca8afd2c5736d89d21b67976f2d07 LICENSE
-SHA1 182208e974644a5d08e1294ba3a0bbcd1fba7079 MANIFEST
+SHA1 2b9c78364f3bffd5fd74319d1f23a4178f08262e Changes
+SHA1 a174928e84308ecca1e244fda30c56960b1e31e2 LICENSE
+SHA1 6d9674ac8a373a25f8736848ee48b711af7b4361 MANIFEST
 SHA1 ede5fe6c5c33b5e0b3b2707db79afbc3c7b845f3 MANIFEST.SKIP
-SHA1 784ff93ff8e56de95a080eea64e1e4c497ea754e META.json
-SHA1 7872247fd0ec8edd5e46ea44dc1ae9dab32cefb6 META.yml
-SHA1 938a25a2bc55b4084fb71c6987f54c534f01dd6d Makefile.PL
-SHA1 9c64cca8c54b530b333ab001554644ffcca8796c README
-SHA1 38cfe7bb0e00905a0ac1f33347fce0db17242ada README.md
-SHA1 b57206dda974301520c9f7ebf751db800dd36a2c examples/proxy.psgi
-SHA1 0d73cbd52aabae07afabb98e3a6793993d45b4a0 lib/Plack/Middleware/Proxy/Requests.pm
+SHA1 49ee4d77d59dab43e2c72272cdb88668a201b69b META.json
+SHA1 1caee9f6fe0fac42cab308f37dbab21c17167e73 META.yml
+SHA1 5f16e9dbddfe815dd9813938932fbcf53d8ab286 Makefile.PL
+SHA1 d7353eb1554076ced376e5bb13218c9f23fc0bf7 README
+SHA1 4e17a421d31c5f087bf5304fbdabab6c73e2fc00 README.md
+SHA1 4ae49c76b9fc5e4a9d98d35ae3f123e11534d08b examples/apt-proxy.psgi
+SHA1 024e21e67dbb3cee487092ab36270ad15796b98e examples/proxy.psgi
+SHA1 b4c42867101ba7585b1223dd8edfe5fd44d4392a lib/Plack/Middleware/Proxy/Requests.pm
 SHA1 9a5476cdcf3d722330b43c334a68fb9944470c4a t/010_use.t
 SHA1 d1b6ef1d4541ea96d5bedb6370caaa8f32f69d4e t/100_proxy_url.t
 SHA1 8259fd967411a9d13ee842b1adb8913153fc39f1 t/test.pl
@@ -49,9 +50,9 @@ SHA1 e4c04dee16d660081f46faa82e201a792c31b990 xt/pod_spellrc
 SHA1 87cb53d4ad0162a872d5c70013fc41719e030555 xt/pod_syntax.t
 SHA1 a38994922fda6d64e2ee75198fadc464a221fea9 xt/signature.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v1.4.12 (GNU/Linux)
 
-iEYEARECAAYFAlAqWmcACgkQhMHHe8CxCltHRACfQ4oyjPBL6jku8bnirrYfjE/9
-ZGoAoNrHlQu9dbBWjfxlsg0DY/4f8zC8
-=KjKE
+iEYEARECAAYFAlGeIyQACgkQhMHHe8CxClugrwCfYDWe8VsIVrMx1eZIH5wiFDx6
+A4cAn2wUz3jwz35od64L3IJz5EuFT4iO
+=KTPA
 -----END PGP SIGNATURE-----
