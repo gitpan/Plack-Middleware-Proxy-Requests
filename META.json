@@ -21,7 +21,6 @@
       },
       "runtime" : {
          "recommends" : {
-            "Starlet" : "0",
             "Twiggy" : "0"
          },
          "requires" : {
@@ -34,7 +33,7 @@
    "provides" : {
       "Plack::Middleware::Proxy::Requests" : {
          "file" : "lib/Plack/Middleware/Proxy/Requests.pm",
-         "version" : "0.0101"
+         "version" : "0.0102"
       }
    },
    "release_status" : "stable",
@@ -49,5 +48,5 @@
          "url" : "http://github.com/dex4er/perl-Plack-Middleware-Proxy-Requests"
       }
    },
-   "version" : "0.0101"
+   "version" : "0.0102"
 }
